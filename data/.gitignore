@@ -1,0 +1,18 @@
+# Secrets - never commit these
+*.env
+.env
+credentials.txt
+
+# Generated data (large, regenerable via generate_data.py)
+files.zip
+
+# Power BI
+*.pbix.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db

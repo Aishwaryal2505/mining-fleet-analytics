@@ -1,0 +1,5 @@
+route_id,route_name,origin_site_id,destination_site_id,distance_km,typical_duration_min
+1,Pit A - Plant,1,3,15.4,25
+2,Pit B - Plant,2,3,22.1,35
+3,Plant - Port,3,4,181.6,140
+4,Pit A - Port Direct,1,4,192.3,150

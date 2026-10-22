@@ -1,0 +1,6 @@
+site_id,site_code,site_name,site_type,latitude,longitude
+1,PITA,Warrigal Pit A,mine_pit,-22.5231,119.7351
+2,PITB,Warrigal Pit B,mine_pit,-22.5389,119.7602
+3,PLNT,Warrigal Processing Plant,processing_plant,-22.5105,119.7488
+4,PORT,Boola Port Stockpile,port,-20.3103,118.5967
+5,DEPO,Ridgeback Fuel Depot,depot,-22.5177,119.742

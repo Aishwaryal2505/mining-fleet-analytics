@@ -1,0 +1,11 @@
+truck_id,truck_code,model,capacity_tonnes,year_commissioned,status
+1,HT-001,Liebherr T 284,240,2017,active
+2,HT-002,Cat 793F,240,2020,active
+3,HT-003,Cat 793F,240,2019,active
+4,HT-004,Cat 793F,240,2017,active
+5,HT-005,Liebherr T 284,240,2024,active
+6,HT-006,Cat 793F,240,2022,active
+7,HT-007,Cat 793F,240,2016,active
+8,HT-008,Cat 793F,180,2019,active
+9,HT-009,Cat 793F,180,2024,active
+10,HT-010,Liebherr T 284,180,2016,active
