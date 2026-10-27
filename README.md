@@ -35,6 +35,25 @@ That data is loaded into a live PostgreSQL database on AWS RDS, analyzed with SQ
 4. *(Bonus)* Fuel efficiency — litres/km and cost/km by truck
 
 ---
+## AI-generated executive summary
+
+`scripts/ai_summary.py` pulls the live KPI numbers from RDS and uses the Google Gemini API
+to generate a short, plain-English performance summary — the kind of narrative a manager
+could read in 15 seconds instead of parsing raw numbers or charts.
+
+Example output:
+> "Over the past three months, the fleet achieved an 85.1% on-time delivery rate while
+> incurring $486,010 AUD in total downtime costs. Mechanical failures were the primary
+> financial drain, accounting for nearly 48% ($233,568 AUD) of these losses... Addressing
+> the root causes of recurring mechanical breakdowns and investigating the low deployment
+> of these bottom three units represent your highest-impact opportunities to recover
+> capacity and reduce costs."
+
+Requires a free Gemini API key (aistudio.google.com) set as `GEMINI_API_KEY`:
+```bash
+pip install google-genai
+python scripts/ai_summary.py
+```
 
 ## Project structure
 
